@@ -59,7 +59,7 @@ string AcharItem=Console.ReadLine();
 
         default:
           Console.WriteLine("Opção Inválida!");
-          break;
+          break; 
       } 
     } while (opcao != 's');
   }
