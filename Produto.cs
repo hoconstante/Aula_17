@@ -102,7 +102,7 @@ this._preco);
         WHERE produto.nome LIKE '%"+acharItem+"%';";
       using (var reader = command.ExecuteReader())
       {
-        while (reader.Read())
+        while (reader.Read()) 
         {
           var id = reader.GetInt32(0);
           var nome = reader.GetString(1);
